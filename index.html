@@ -3,22 +3,35 @@
     <title>Learning CSS</title>
     <style>
       h1 {
-        color: red;
+        color: red; font-size: large;
       }
 
       p {
-        margin: 32px;
+        margin: 32px; font-style: normal;
+      }
+      
+      ul{font-style: normal; list-style-type: armenian; text-size-adjust: "30em"
       }
 
       button {
+        font-size: smaller;
       }
 
-      /* TODO: add styles for header  */
+      header {
+      font-size: x-large;
+      }
+
       
-      /* TODO: add styles for footer  */
+      Footer {
+        font-size: small;
+      }
 
       .paragraph-1 {
         background-color: pink;
+      }
+
+      main {
+        font-style: normal; font-size: larger; font-family: 'Times New Roman', Times, serif;
       }
     </style>
     <link rel="stylesheet" href="style.css">
@@ -29,15 +42,19 @@
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
+      <p class="paragraph-1" style="font-stretch: condensed;">
         <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
         pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
         aliquam etiam.    
       </p>
-    
-      <p style="">
+    <ul>
+        <li>Cats are soft</li>
+        <li>Cats love to play pranks and climb cat trees</li>
+        <li>Cats are cuddly</li>
+    </ul>
+      <p style="font-family: 'Times New Roman', Times, serif;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -49,7 +66,7 @@
         erat nam at lectus urna duis.
       </p>
     
-      <p style="">
+      <p style="font-family: 'Times New Roman', Times, serif;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -60,25 +77,37 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
-    
+    <ol style="background-color: blue; font-family: Arial, Helvetica, sans-serif;">
+        <li>Hot Wheels Cars are collectible</li>
+        <li>Hot wheels are cool for all ages</li>
+        <li>There are many varieties of Hot Wheels to suit your taste.</li>
+
+    </ol>
       <table>
         <tr>
-          <th style="">item</th>
-          <th style="">price</th>
+          <th style="font-family: Arial, Helvetica, sans-serif;">item</th>
+          <th style="font-family: Arial, Helvetica, sans-serif;">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="
+            font-style: italic;">hotwheels car</td>
+          <td style="font-style: italic;">$4.99</td>
         </tr>
         <tr>
-          <td style="">
+          <td style="font-family: Arial, Helvetica, sans-serif; font-style: italic;">
             Cabbage patch doll
           </td>
-          <td style="">$1.99</td>
+          <td style="font-style: italic;">$1.99</td>
         </tr>
       </table>
-    
-      <button style="">Buy Now!</button>
+      <table style="border-color: blueviolet; font-family: Arial, Helvetica, sans-serif;">
+        <tr style="font-family: Arial, Helvetica, sans-serif;>
+          <td 
+          style="font-style: italic;">Barbie Dolls</td>
+          <td style="font-style: italic;">$1.99</td>
+        </tr>
+      </table>
+      <button style="font-family: 'Times New Roman', Times, serif;">Buy Now!</button>
     </main>
   
     <nav>
@@ -87,7 +116,7 @@
       <a> GALLERY </a>
     </nav>
     
-    <footer>
+    <footer> Hotwheels
     </footer>
 
     <script src="./script.js"></script>
